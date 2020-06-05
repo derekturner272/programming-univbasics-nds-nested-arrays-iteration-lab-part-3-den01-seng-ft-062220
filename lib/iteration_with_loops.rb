@@ -6,8 +6,7 @@ def join_nested_strings(src)
     second_index = 0
     
     while second_index < src[first_index].count do
-      if dayly_low > src[first_index][second_index]
-        dayly_low = src[first_index][second_index]
+      if src[first_index][second_index].is_a()
       end
       second_index += 1
     end
