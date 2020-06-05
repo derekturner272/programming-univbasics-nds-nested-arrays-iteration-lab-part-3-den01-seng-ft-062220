@@ -13,5 +13,5 @@ def join_nested_strings(src)
     end
     first_index += 1
   end
-  new_form.join 
+  new_form.join(" ") 
 end
